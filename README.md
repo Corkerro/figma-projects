@@ -1,10 +1,14 @@
 Instruction
 
-1.  cd .\backend\
+1.  Terminal
+
+cd .\backend\
 
 npm i
 
 npm run develop
+
+http://localhost:1337/admin/
 
 login: admin
 
@@ -13,9 +17,15 @@ email: admin@admin.com
 passowrd: Admin1234
 
 
-2.  cd .\express\
+2. Terminal
 
-    node index.js
+cd .\express\
+
+node index.js
 
 
-3. start .\index.html
+3. Terminal
+
+cd .\site\
+
+start .\index.html
