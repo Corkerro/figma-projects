@@ -4,7 +4,7 @@ Instruction
 
 npm i
 
-npm develop
+npm run develop
 
 login: admin
 
