@@ -1,10 +1,10 @@
 Instruction
 
 1.  cd .\backend\
-    npm develop
-    login: admin
-    email: admin@admin.com
-    passowrd: Admin1234
+    npm develop\n
+    login: admin\n
+    email: admin@admin.com\n
+    passowrd: Admin1234\n
 2.  cd .\express\
     node index.js
 
