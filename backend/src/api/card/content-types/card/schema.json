@@ -1,0 +1,87 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cards",
+  "info": {
+    "singularName": "card",
+    "pluralName": "cards",
+    "displayName": "card",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "daatee": {
+      "type": "datetime"
+    },
+    "difficulty": {
+      "type": "enumeration",
+      "enum": [
+        "легкий",
+        "средний",
+        "сложный",
+        "гуру"
+      ]
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "лендинг",
+        "магазин",
+        "многостраничник",
+        "приложение",
+        "квиз"
+      ],
+      "required": true
+    },
+    "adaptive": {
+      "type": "enumeration",
+      "enum": [
+        "адаптивный",
+        "десктоп",
+        "мобильный"
+      ],
+      "required": true
+    },
+    "language": {
+      "type": "enumeration",
+      "enum": [
+        "ru",
+        "ukr",
+        "en"
+      ],
+      "required": true
+    },
+    "telegram": {
+      "type": "text"
+    },
+    "link": {
+      "type": "text"
+    },
+    "price": {
+      "type": "string"
+    },
+    "views": {
+      "type": "biginteger",
+      "default": "0"
+    }
+  }
+}
