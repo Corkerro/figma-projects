@@ -2,6 +2,8 @@ Instruction
 
 1.  cd .\backend\
 
+npm i
+
 npm develop
 
 login: admin
